@@ -1,0 +1,25 @@
+[
+  {
+    "heading": "Recipes By Category",
+    "subHeading": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim",
+    "cats": [
+      {
+        "catName": "Sweets",
+        "image": "c1.webp"
+      },
+
+      {
+        "catName": "Burgers",
+        "image": "c2.webp"
+      },
+      {
+        "catName": "Drinks",
+        "image": "c3.webp"
+      },
+      {
+        "catName": "Pizzas",
+        "image": "c4.webp"
+      }
+    ]
+  }
+]

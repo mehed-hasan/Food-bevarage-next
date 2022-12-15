@@ -167,12 +167,6 @@ a {
   box-shadow: none;
 }
 
-#hero {
-  background-image: url("/assets/images/backgrounds/hero.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 #hero .hero_row {
   min-height: 540px;
   background-position: center;
@@ -879,7 +873,7 @@ a {
   margin-top: 40px;
 }
 #footer #mob_footer_part .accordion-button:not(.collapsed)::after {
-  background-image: url("/assets/images/icons/+.svg") !important;
+  background-image: url("../images/icons/+.svg") !important;
   height: 16px;
   width: 16px;
   background-size: cover;
@@ -898,7 +892,7 @@ a {
   width: 16px;
   margin-left: auto;
   content: "";
-  background-image: url("/assets/images/icons/+.svg") !important;
+  background-image: url("../images/icons/+.svg") !important;
   background-repeat: no-repeat;
   background-size: 1.25rem;
   transition: transform 0.2s ease-in-out;
@@ -1273,7 +1267,7 @@ a {
 }
 
 #blog_banner {
-  /* min-height: 344px; */
+  min-height: 344px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1282,7 +1276,6 @@ a {
   display: flex;
   text-align: center;
   min-height: 442px;
-  background-image: url("/assets/images/backgrounds/blog_bg.webp");
 }
 #blog_banner .heading_desc {
   max-width: 620px;
@@ -2305,53 +2298,3 @@ a {
     padding-left: 5px;
   }
 } /*# sourceMappingURL=style.css.map */
-
-.category {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-.category input[type="radio"] {
-  display: none;
-}
-.categories label {
-  padding: 5px 8px;
-  border: 1px solid rgba(21, 21, 21, 0.3);
-  border-radius: 32px;
-  cursor: pointer;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 15px;
-  color: #151515;
-}
-
-.blank-label {
-  display: none;
-}
-.category input[type="radio"]:checked + label {
-  background: #ff7426;
-  color: #fff;
-  border: 1px solid #ff762600;
-}
-
-.social_posts .slick-track .slick-slide {
-  padding: 0 10px;
-}
-.social_posts .slick-track .slick-slide > div:focus-within {
-  outline: none;
-}
-
-#newsletter_2 {
-  background-image: url("/public/assets/images/backgrounds/newsletter.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#details_page {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}

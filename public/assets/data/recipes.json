@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "time": "30 minutes",
+    "cat": "Sweets",
+    "price": "$10",
+    "layer": 1,
+    "image": "food1.webp",
+    "type": "",
+    "author": "Andreas Paula"
+  },
+  {
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "time": "30 minutes",
+    "cat": "Pizza",
+    "price": "$5",
+    "layer": 1,
+    "image": "food2.webp",
+    "type": "",
+    "author": "Andreas Paula"
+  },
+  {
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "time": "30 minutes",
+    "cat": "Pizza",
+    "price": "$10",
+    "layer": 2,
+    "image": "food2.webp",
+    "type": "",
+    "author": "Andreas Paula"
+  },
+  {
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "time": "30 minutes",
+    "cat": "Drinks",
+    "price": "$10",
+    "layer": 1,
+    "image": "food3.webp",
+    "type": "",
+    "author": "Andreas Paula"
+  },
+  {
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "time": "30 minutes",
+    "cat": "Sweets",
+    "price": "$10",
+    "layer": 3,
+    "image": "food4.webp",
+    "type": "popular",
+    "author": "Andreas Paula"
+  },
+  {
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "time": "30 minutes",
+    "cat": "Pizza",
+    "price": "$10",
+    "layer": 1,
+    "image": "food5.webp",
+    "type": "popular",
+    "author": "Andreas Paula"
+  },
+  {
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "time": "30 minutes",
+    "cat": "Sweets",
+    "layer": 5,
+    "price": "$10",
+    "image": "food1.webp",
+    "type": "popular",
+    "author": "Andreas Paula"
+  },
+  {
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "time": "30 minutes",
+    "cat": "Pizza",
+    "price": "$10",
+    "layer": 1,
+    "image": "food2.webp",
+    "type": "",
+    "author": "Andreas Paula"
+  },
+  {
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "time": "30 minutes",
+    "cat": "Snack",
+    "price": "$10",
+    "layer": 1,
+    "image": "food3.webp",
+    "type": "",
+    "author": "Andreas Paula"
+  },
+  {
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "time": "30 minutes",
+    "cat": "Snack",
+    "price": "$10",
+    "layer": 1,
+    "image": "food4.webp",
+    "type": "",
+    "author": "Andreas Paula"
+  },
+  {
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "time": "30 minutes",
+    "cat": "Snack",
+    "layer": 2,
+    "price": "$10",
+    "image": "food5.webp",
+    "type": "",
+    "author": "Andreas Paula"
+  }
+]

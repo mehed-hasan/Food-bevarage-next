@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "label": "Home",
+    "link": "/"
+  },
+  {
+    "id": 1,
+    "label": "Recipes",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "label": "Blog",
+    "link": "/blogs"
+  },
+  {
+    "id": 3,
+    "label": "Contact",
+    "link": "/contact"
+  }
+]
