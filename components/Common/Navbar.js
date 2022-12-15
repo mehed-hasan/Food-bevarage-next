@@ -4,11 +4,16 @@ import { useEffect, useState } from "react";
 
 function Navbar() {
   const [navbar, setNavbar] = useState({});
+  const [dropDown, setDropDown] = useState({});
 
   useEffect(() => {
     fetch("/assets/data/navbar.json")
       .then((res) => res.json())
       .then((differnet) => setNavbar(differnet));
+
+    fetch("/assets/data/recipescat.json")
+      .then((res) => res.json())
+      .then((differnet) => setDropDown(differnet));
   }, []);
   
   return (
@@ -64,7 +69,7 @@ function Navbar() {
                           >
                             <div className="arrow"></div>
 
-                            {/* {item.recipes.cat.map((item, index) => (
+                            {dropDown.length > 0 && dropDown?.map((item, index) => (
                               <li key={index}>
                                 <Link
                                   href={`filterpage/${item.type}`}
@@ -78,7 +83,7 @@ function Navbar() {
                                   {item.type}
                                 </Link>
                               </li>
-                            ))} */}
+                            ))}
                           </ul>
                         </>
                       )}

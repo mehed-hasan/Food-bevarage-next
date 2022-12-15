@@ -5,7 +5,7 @@ function CatCard({ data }) {
   return (
     <>
       <div className="col-6 col-md-3">
-        <Link href="/">
+        <Link href={`/${data.link}`}>
           <div className="cat_card">
             <Image
               className="img-fluid"

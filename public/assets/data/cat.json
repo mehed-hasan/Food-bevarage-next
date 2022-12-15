@@ -5,20 +5,24 @@
     "cats": [
       {
         "catName": "Sweets",
-        "image": "c1.webp"
+        "image": "c1.webp",
+        "link": "sweets"
       },
 
       {
         "catName": "Burgers",
-        "image": "c2.webp"
+        "image": "c2.webp",
+        "link": "burgers"
       },
       {
         "catName": "Drinks",
-        "image": "c3.webp"
+        "image": "c3.webp",
+        "link": "drinks"
       },
       {
         "catName": "Pizzas",
-        "image": "c4.webp"
+        "image": "c4.webp",
+        "link": "pizzas"
       }
     ]
   }
