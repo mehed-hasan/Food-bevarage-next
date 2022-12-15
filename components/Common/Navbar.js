@@ -72,7 +72,7 @@ function Navbar() {
                             {dropDown.length > 0 && dropDown?.map((item, index) => (
                               <li key={index}>
                                 <Link
-                                  href={`filterpage/${item.type}`}
+                                  href={`/${item.link}`}
                                   className="dropdown-item"
                                 >
                                   <span

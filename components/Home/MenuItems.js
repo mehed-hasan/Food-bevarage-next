@@ -14,9 +14,6 @@ function MenuItems() {
     return item.replace(" ", "-");
   };
 
-  console.log("====================================");
-  console.log(menus[0]);
-  console.log("====================================");
   return (
     <>
       <div className="gap"></div>

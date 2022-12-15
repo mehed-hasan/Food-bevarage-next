@@ -3,19 +3,12 @@ import RecipeHero from "../../components/Recipe/RecipeHero";
 import RecipeLike from "../../components/Recipe/RecipeLike";
 import RecipeNewsletter from "../../components/Recipe/RecipeNewsletter";
 
-function RecipDetails(props) {
-  const [cat, setCat] = useState('');
-  const roomSlug = router.query.slug;
+function RecipDetails() {
+ 
+  const router = useRouter()
+  const { link } = router.query
 
-
-  useEffect(() => {
-    fetch("/assets/data/cat.json")
-      .then((res) => res.json())
-      .then((differnet) => setCat(differnet));
-  }, []);
-
-  console.log(roomSlug);
-
+  console.log(link);
   return (
     <>
       <RecipeHero />

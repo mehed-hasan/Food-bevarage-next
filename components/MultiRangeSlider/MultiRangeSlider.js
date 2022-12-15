@@ -3,7 +3,7 @@ import "@reach/tooltip/styles.css";
 import classnames from "classnames";
 import PropTypes from "prop-types";
 import React, { useCallback, useEffect, useRef, useState } from "react";
-import "./MultiRangeSlider.css";
+// import "./MultiRangeSlider.css";
 
 const MultiRangeSlider = ({ min, max, onChange }) => {
   const [minVal, setMinVal] = useState(min);

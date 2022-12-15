@@ -1,9 +1,10 @@
-import { useParams } from "react-router";
-import "../../css/rangeslider.css";
+
+// import "../../css/rangeslider.css";
 import SearchPanel from "./SearchPanel";
 import SearchResult from "./SearchResult";
 
 function FilterSection({ cat }) {
+ 
   return (
     <>
       <div className="gap"></div>

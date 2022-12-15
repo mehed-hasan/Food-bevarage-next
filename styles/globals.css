@@ -927,6 +927,7 @@ a {
 
 #banner {
   min-height: 344px;
+  background-image: url("/assets/images/backgrounds/banner-1.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

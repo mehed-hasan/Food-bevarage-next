@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 function FoodCard({ data }) {
-  console.log(data);
+  console.log("data", data);
   return (
     <>
       <Link href="#">
